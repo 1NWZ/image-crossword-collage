@@ -1,0 +1,42 @@
+{
+  "mode": "photo-overlay",
+  "grid_style": "random",
+  "grid_chance": 0.5,
+  "variant": 0,
+  "title": "PERSONAL IMAGE INDEX",
+  "caption": "VISIBLE DETAILS, RECOMPOSED",
+  "grid_rows": 24,
+  "color_square_density": 0.022,
+  "paper_wash": 0.08,
+  "word_opacity": 0.72,
+  "protect_regions": [[0.35, 0.08, 0.30, 0.30]],
+  "words": [
+    {
+      "text": "SILVER",
+      "anchor": [0.68, 0.30],
+      "orientation": "horizontal",
+      "cluster": "wardrobe",
+      "weight": 1.3,
+      "evidence": "replace with a visible silver object in the source"
+    },
+    {
+      "text": "PLEATS",
+      "anchor": [0.48, 0.62],
+      "orientation": "vertical",
+      "cluster": "wardrobe",
+      "weight": 1.1,
+      "evidence": "replace with visible pleated fabric in the source"
+    },
+    {
+      "text": "WINDOW",
+      "anchor": [0.18, 0.24],
+      "orientation": "auto",
+      "cluster": "room",
+      "weight": 1.0,
+      "evidence": "replace with a visible window in the source"
+    },
+    {"text": "SHADOW", "anchor": [0.72, 0.72], "orientation": "auto", "cluster": "light", "weight": 0.9},
+    {"text": "DENIM", "anchor": [0.36, 0.55], "orientation": "auto", "cluster": "wardrobe", "weight": 0.9},
+    {"text": "CHAIR", "anchor": [0.80, 0.50], "orientation": "vertical", "cluster": "room", "weight": 0.8}
+  ]
+}

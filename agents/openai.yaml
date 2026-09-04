@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image Crossword Collage"
+  short_description: "Turn photos into unique editorial crossword collages"
+  default_prompt: "Use $image-crossword-collage to turn my image into a personalized editorial crossword collage."
