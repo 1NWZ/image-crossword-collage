@@ -8,4 +8,4 @@ Do not include private photos, credentials, or other sensitive user data in a re
 
 ## Scope
 
-The bundled renderer reads local images and JSON, writes an output image, and makes no network requests. Model providers or surrounding agent runtimes are separate systems with their own security and privacy policies.
+The bundled renderer reads local images and JSON, writes an output image, and makes no network requests.

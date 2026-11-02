@@ -6,6 +6,10 @@ The visual system stays recognizable—square letter tiles, thin grid rules, tra
 
 [中文说明](README.zh-CN.md)
 
+## Provider-independent workflow
+
+Use your host assistant’s image-understanding capability, or write the JSON spec manually. No model API integration, endpoint configuration, or credentials are bundled. Optional photographic edits can use an image-editing tool available in your environment.
+
 ## How it works
 
 The project deliberately separates semantic decisions from precision graphics:
@@ -56,7 +60,7 @@ See [references/spec.md](references/spec.md) for the complete schema.
 
 At least 70% of the words should describe directly visible objects, materials, colors, actions, or settings; no more than 30% should be inferred mood. A word list that could describe most unrelated photos is not specific enough. The optional `evidence` field records why each word was chosen without drawing that note into the image.
 
-The compositor processes files locally and contains no network calls or telemetry. A model integration may have its own data policy, so check that separately before sending sensitive images.
+The compositor processes files locally and contains no network calls or telemetry.
 
 ## Development
 
