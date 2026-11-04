@@ -7,5 +7,6 @@ dist/
 build/
 result.png
 *.egg-info/
+config/models.local.json
 .env
 .env.*
